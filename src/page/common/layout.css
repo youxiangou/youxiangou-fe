@@ -2,7 +2,7 @@
 * @Author: shenyoujian
 * @Date:   2019-02-24 00:44:33
 * @Last Modified by:   shenyoujian
-* @Last Modified time: 2019-02-24 01:26:47
+* @Last Modified time: 2019-02-25 06:04:23
 */
 
 /**css reset把一些默认的样式去掉或者给它统一起来**/
@@ -81,7 +81,7 @@ input[type='checkbox']{
     line-height: 40px;
     vertical-align: middle;
     border: none;
-    background: #c60023;
+    background: green;
     font-size: 17px;
     font-weight: bold;
     color: #fff;

@@ -2,11 +2,14 @@
 * @Author: shenyoujian
 * @Date:   2019-02-24 00:18:26
 * @Last Modified by:   shenyoujian
-* @Last Modified time: 2019-02-24 04:00:24
+* @Last Modified time: 2019-02-26 10:13:40
 */
 
 'use strict';
 var hogan = require('hogan');
+var conf = {
+    serverHost : ''
+};
 
 var _youxiangou = {
     // 网络请求
@@ -39,7 +42,7 @@ var _youxiangou = {
 
     // 获取服务器地址
     getServerUrl        : function(path){
-        return conf.serverHost + path;
+        return conf.serverHost  + path;
     },
     // 获取url的参数
     getUrlParam         : function(name){
